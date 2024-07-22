@@ -5,7 +5,7 @@ From: anapsix/alpine-java:latest
 	author Ricardo Pavan
 	maintainer pavan.4
 	name BBTools
-	version v38.90 (released 2021-02-03) 
+	version v39.08 (released 17-07-2024) 
 	bbmap 39.08
 %post
 	apk update && apk upgrade \
