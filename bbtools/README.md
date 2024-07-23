@@ -1,6 +1,6 @@
 # BBTools Docker Container
 
-BBTools is a suite of bioinformatics tools designed for handling and analyzing biological sequences.
+[BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/) is a suite of bioinformatics tools designed for handling and analyzing biological sequences.
 
 ## Building the Docker Image
 
@@ -52,9 +52,3 @@ singularity run bbtools_v39.08.sif bbduk.sh in1=<input-pair1> in2=<input-pair2> 
 # Quality filtering
 singularity run bbtools_v39.08.sif bbduk.sh in1=<trimmed-pair1> in2=<trimmed-pair2> qtrim=rl trimq=10 out1=<trimmed-and-quality-pair1> out2=<trimmed-and-quality-pair2>
 ```
-
-Replace `input.fastq` and `output.fastq` with your actual file names.
-
-## Additional Information
-
-- [BBTools Documentation](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/)
