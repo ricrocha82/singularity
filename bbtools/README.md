@@ -1,17 +1,12 @@
 # BBTools Docker Container
 
-This repository contains Dockerfile and Singularity files to create an image of the BBTools. BBTools is a suite of bioinformatics tools designed for handling and analyzing biological sequences.
-
-## Prerequisites
-
-- [Docker](https://www.docker.com/get-started) installed on your machine.
-- [Apptainer](https://apptainer.org ) installed on your machine.
+BBTools is a suite of bioinformatics tools designed for handling and analyzing biological sequences.
 
 ## Building the Docker Image
 
-1. Clone this repository or download the Dockerfile.
-2. Navigate to the directory containing the Dockerfile.
-3. Build the Docker image with the following command:
+1. Clone this repository or download the Dockerfile/Singularity.
+2. Navigate to the directory containing the file.
+3. Build the image with the following command:
 
    ```sh
    #docker
@@ -24,7 +19,7 @@ This repository contains Dockerfile and Singularity files to create an image of 
 
 ## Running the Docker Container
 
-To run the Docker container in interactive mode:
+To run the container in interactive mode:
 
 ```sh
 docker run -it --rm bbtools-container
@@ -63,7 +58,3 @@ Replace `input.fastq` and `output.fastq` with your actual file names.
 ## Additional Information
 
 - [BBTools Documentation](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
